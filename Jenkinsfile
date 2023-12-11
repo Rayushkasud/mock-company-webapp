@@ -3,7 +3,7 @@ pipeline {
   stages{
     stage("build"){
       steps{
-        echo "Building"
+        // echo "Building"
          ./gradlew assemble
       }
 
@@ -12,7 +12,7 @@ pipeline {
   
   stage("Test"){
     steps{
-      echo "Testing"
+      // echo "Testing"
       ./gradlew test
     }
 
