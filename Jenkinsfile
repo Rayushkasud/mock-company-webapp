@@ -8,7 +8,7 @@ pipeline {
 
     }
 
-  }
+  
   stage("Test"){
     steps{
       echo "Rayushka"
@@ -16,4 +16,5 @@ pipeline {
 
   }
 
+}
 }
